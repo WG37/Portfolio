@@ -2,7 +2,6 @@ class LFSR {
     constructor(seed) {
         this.state = parseInt(seed, 16) & 0xFF; // Convert hex seed to an 8-bit integer
     }
-
     next() {
         let bit = (
             (this.state >> 7) ^ 

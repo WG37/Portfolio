@@ -9,7 +9,7 @@
     <title>William Glass's Portfolio</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
@@ -41,20 +41,23 @@
                         <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                        <a href="#experience" class="nav-link"><span data-hover="Experience/Education">Experience/Education</span></a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
                     </li>
                 </ul>
 
+                <!-- Social Icons -->
                 <ul class="navbar-nav ml-lg-auto">
-                    <div class="ml-lg-4">
-                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
-                        <i class="color-mode-icon"></i>
-                        Color mode
-                      </div>
-                    </div>
+                <li class="nav-item d-flex align-items-center">
+                  <a href="https://github.com/WG37" class="nav-link" target="_blank" aria-label="GitHub">
+                    <i class="uil uil-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/will-glass-715090382/" class="nav-link" target="_blank" aria-label="LinkedIn">
+                    <i class="uil uil-linkedin"></i>
+                    </a>
+                </li>
                 </ul>
             </div>
         </div>
@@ -69,18 +72,20 @@
                     <div class="about-text">
                       <!-- <small class="small-text">Welcome to <span class="mobile-block">my portfolio website</span></small> -->
                         <h1 class="animated animated-text">
-                            <span class="mr-2">Hello, my name is William</span>
+                            <span class="mr-2">Hi, my name is William</span>
                                 <div class="animated-info">
                                     <span class="animated-item"></span>
                                     <span class="animated-item"></span>
                                     <span class="animated-item"></span>
                                 </div>
                         </h1>
-                        <p>I thoroughly enjoy embracing and overcoming challenges, including my strong passion for cryptography and extensive experience in both its theoretical and practical applications. 
-                           My background is primarily focused on cybersecurity, where I have worked in team environments that actively explore and apply red and blue team techniques in real-world scenarios.</p>
+                        <p>Backend-focused software developer experienced in .NET and JavaScript. Skilled at building scalable microservices, 
+                          APIs, and secure system architectures. Strong grounding in cybersecurity, integrating best practices into development, 
+                          architecture, and DevOps workflows. Known for delivering clean, maintainable code, solving complex problems, 
+                          and collaborating effectively with teams to produce reliable, high-quality solutions.</p>
                         
                         <div class="custom-btn-group mt-4">
-                          <a href="Resume.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                          <a href="William Glass - CV.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
                           <a href="Research_Report_IARR1.pdf" class="btm mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Research Report</a>
                           <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link"> Contact</a>
                         </div>
@@ -89,7 +94,7 @@
 
                 <div class="col-lg-5 col-md-12 col-12">
                     <div class="about-image svg">
-                        <img src="images/undraw/Sphere_wireframe.svg" class="img-fluid" alt="svg image">
+                        <img src="images/undraw/croppedImage.png" class="img-fluid" alt="svg image">
                     </div>
                 </div>
 
@@ -109,50 +114,50 @@
                         <div style="margin-bottom: 100px;"></div>
                       </div>
 
-                      <div class="owl-carousel owl-theme">
-                        <div class="item">
+                      <div class="row">
+                        <div class="col-md-4 mb-4">
                           <div class="project-info">
-                          <a>
-                            <img src="" class="img-fluid" alt="LFSR Simulation">
-                          </a>
-                          <h3 class="mt-2"></h3>
-                          <p>This is an interactive simulator demonstrating an 8-bit Linear Feedback Shift Register.</p>
-                          <a href="lfsr.html" class="btn btn-primary mt-2">Click here</a>
+                            <img src="images/project/lfsr.jpg" class="img-fluid" alt="LFSR Simulation">
+                            <p>This is an interactive simulator demonstrating an 8-bit Linear Feedback Shift Register.</p>
+                            <a href="https://wg37.github.io/8-Bit-LFSR/" class="btn btn-primary mt-2">Click here</a>
                           </div>
                         </div>
 
-                        <div class="item">
+                        <div class="col-md-4 mb-4">
                           <div class="project-info">
-                            <img src="images/project/project-image02.png" class="img-fluid" alt="project image">
+                            <img src="images/project/pathfinder.png" class="img-fluid" alt="A* Path Finding Algorithm">
+                            <p>A basic visual implementation of the A* Pathfinding Algorithm</p>
+                            <a href="https://wg37.github.io/A-Pathfinding-Algorithm/" class="btn btn-primary mt-2">Click here</a>
                           </div>
                         </div>
 
-                        <div class="item">
+                        <div class="col-md-4 mb-4">
                           <div class="project-info">
                             <img src="images/project/project-image03.png" class="img-fluid" alt="project image">
                           </div>
                         </div>
 
-                        <div class="item">
+                        <div class="col-md-4 mb-4">
                           <div class="project-info">
                             <img src="images/project/project-image04.png" class="img-fluid" alt="project image">
                           </div>
                         </div>
 
-                        <div class="item">
+                        <div class="col-md-4 mb-4">
                           <div class="project-info">
                             <img src="images/project/project-image05.png" class="img-fluid" alt="project image">
                           </div>
                         </div>
                       </div>
+                      <!-- end grid -->
 
-                  </div>
-                </div>
-        </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- FEATURES -->
-    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+    <section class="experience py-5 d-lg-flex justify-content-center align-items-center" id="experience">
         <div class="container">
             <div class="row">
 
@@ -162,17 +167,17 @@
                     <div class="timeline">
                         <div class="timeline-wrapper">
                              <div class="timeline-yr">
-                                  <span>2024</span>
+                                  <span>2025</span>
                              </div>
                              <div class="timeline-info">
-                                  <h3><span>Side-Channel Analysis on RSA</span><small>Independent Research</small></h3>
-                                  <p>Cryptographic attack that utilise SCA to exploit key bits through power analysis</p>
+                                  <h3><span>Software Developer</span><small>Jung Talents</small></h3>
+                                  <p>Designed enterprise system architecture, implemented .NET microservices/APIs, and developed scalable frameworks through research and analysis.</p>
                              </div>
                         </div>
 
                         <div class="timeline-wrapper">
                             <div class="timeline-yr">
-                                <span>2023</span>
+                                <span>2024</span>
                             </div>
                             <div class="timeline-info">
                                 <h3><span>Cyber Range Infrastructure Project</span><small>Gelos</small></h3>
@@ -192,7 +197,7 @@
                         
                         <div class="timeline-wrapper">
                             <div class="timeline-yr">
-                                <span>2023</span>
+                                <span>2024</span>
                             </div>
                             <div class="timeline-info">
                                 <h3><span>Digital Forensic Consultant</span><small>Red Opal</small></h3>
@@ -247,58 +252,57 @@
     <!-- CONTACT -->
     <section class="contact py-5" id="contact">
       <div class="container">
-        <div class="row">
-          
-          <!--
-          <div class="col-lg-5 mr-lg-5 col-12">
-            <div class="google-map w-100">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-          -->
-          <div class="col-lg-1 col-12"></div>
+        <div class="row g-4">
+
+          <!-- Contact info -->
+          <div class="col-lg-6 col-12">
             <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
-                <div class="contact-info-item">
-                  <h3 class="mb-3 text-white">Contact Info</h3>
-                  <p class="footer-text mb-0">+61 0411 753 673</p>
-                  <p><a href="mailto:willg2070@gmail.com">willg2070@gmail.com</a></p>
-                </div>
-
-               <ul class="social-links">
-                 
-                  <li>
-                      <a href="https://github.com/FlyGorilla123" target="_blank" class="uil uil-github" data-toggle="tooltip" data-placement="left" title="GitHub">
-                          <i class="uil uil-github"></i> GitHub
-                      </a>
-                  </li>
+              <div class="contact-info-item">
+                <h3 class="mb-3 text-white">Contact Info</h3>
+                <p class="footer-text mb-0"><a href="tel:+61411753673">+61 411 753 673</a></p>
+                <p><a href="mailto:willg2070@gmail.com">willg2070@gmail.com</a></p>
+              </div>
+              <ul class="social-links list-unstyled mb-0">
+                <li>
+                  <a href="https://github.com/WG37"
+                    class="uil uil-github"
+                    aria-label="GitHub"
+                    data-bs-toggle="tooltip" data-bs-placement="left" title="GitHub" rel="noopener"></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/will-glass-715090382/"
+                    class="uil uil-linkedin"
+                    aria-label="LinkedIn"
+                    data-bs-toggle="tooltip" data-bs-placement="left" 
+                    title="LinkedIn" 
+                    rel="noopener"></a>
+                </li>
               </ul>
-
             </div>
           </div>
-        
-        
-          <div style="margin-bottom: 100px;"></div>
-          
-          
 
+          <!-- Form -->
           <div class="col-lg-6 col-12">
             <div class="contact-form">
               <h2 class="mb-4">Any questions? Feel free to contact</h2>
 
-              <form action="contact.php" method="post">
+              <form id="contactForm" action="https://formspree.io/f/mqadnzqa" method="POST">
                 <div class="row">
                   <div class="col-lg-6 col-12">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" required>
                   </div>
-
                   <div class="col-lg-6 col-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required>
                   </div>
-
                   <div class="col-12">
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                    <textarea name="message" rows="6" class="form-control" placeholder="Message" required></textarea>
                   </div>
 
-                  <div class="ml-lg-auto col-lg-5 col-12">
+                  <!-- Honeypot -->
+                  <input type="text" name="website" autocomplete="off" tabindex="-1" aria-hidden="true"
+                        style="position:absolute;left:-5000px;opacity:0;height:0;width:0;">
+
+                  <div class="ms-lg-auto col-lg-5 col-12">
                     <input type="submit" class="form-control submit-btn" value="Send Button">
                   </div>
                 </div>
@@ -331,6 +335,6 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
-
+    <script src="js/contact.js"></script>
   </body>
 </html>

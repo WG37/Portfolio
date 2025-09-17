@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>William Glass's Portfolio</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons-font@v6/font/simple-icons.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    
+
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> William Glass</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link"><span data-hover="Skills">Skills</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link"><span data-hover="Experience/Education">Experience/Education</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <!-- Social Icons -->
+                <ul class="navbar-nav ml-lg-auto">
+                <li class="nav-item d-flex align-items-center">
+                  <a href="https://github.com/WG37" class="nav-link" target="_blank" aria-label="GitHub">
+                    <i class="uil uil-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/will-g-715090382/" class="nav-link" target="_blank" aria-label="LinkedIn">
+                    <i class="uil uil-linkedin"></i>
+                    </a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                      <!-- <small class="small-text">Welcome to <span class="mobile-block">my portfolio website</span></small> -->
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hi, my name is William</span>
+                                <div class="animated-info">
+                                    <span class="animated-item"></span>
+                                    <span class="animated-item"></span>
+                                    <span class="animated-item"></span>
+                                </div>
+                        </h1>
+                        <p>Backend-focused software developer experienced in .NET and JavaScript. Skilled at building scalable microservices, 
+                          APIs, and secure system architectures. Strong grounding in cybersecurity, integrating best practices into development, 
+                          architecture, and DevOps workflows. Known for delivering clean, maintainable code, solving complex problems, 
+                          and collaborating effectively with teams to produce reliable, high-quality solutions.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="William Glass - CV.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                          <a href="Research_Report_IARR1.pdf" class="btm mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Research Report</a>
+                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link"> Contact</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/croppedImage.png" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills py-5" id="skills">
+
+
+      <style>
+        /* Grid for pills */
+        #skills .skills-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(200px, max-content));
+          gap: 18px;
+          justify-content: center;
+        }
+
+        /* Pill card style */
+        #skills .skill-card {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          padding: 12px 18px;
+          border: 1.5px solid #e4e6eb;
+          border-radius: 9999px;
+          background: #fff;
+          font-size: 15px;
+          font-weight: 600;
+          box-shadow: 0 2px 6px rgba(0,0,0,.06);
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        #skills .skill-card:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+        }
+
+        /* Icon wrapper */
+        #skills .skill-card .icon {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          background: #f5f6fa;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex: 0 0 32px;
+        }
+
+        #skills .skill-card i {
+          font-size: 20px;
+          line-height: 1;
+        }
+
+        /* Small tweaks for faint icons */
+        #skills .devicon-nextjs-plain,
+        #skills .devicon-express-original { opacity: .9; }
+      </style>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-11 text-center mx-auto col-12">
+            <h2 class="mb-5">Skills</h2>
+            <p>Display of my career skills.</p>
+
+            <div class="row">
+              <!-- Front-End -->
+              <div class="col-md-6 col-lg-6 mb-4">
+                <div class="p-4 border rounded-3 shadow-sm">
+                  <h4 class="mb-3">Front-End</h4>
+                  <div class="skills-grid">
+                    <div class="skill-card"><span class="icon"><i class="devicon-react-original colored"></i></span>React Js</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-html5-plain colored"></i></span>HTML</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-css3-plain colored"></i></span>CSS</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-javascript-plain colored"></i></span>JavaScript</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-typescript-plain colored"></i></span>TypeScript</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-bootstrap-plain colored"></i></span>Bootstrap</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-tailwindcss-plain colored"></i></span>Tailwind</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Back-End -->
+              <div class="col-md-6 col-lg-6 mb-4">
+                <div class="p-4 border rounded-3 shadow-sm">
+                  <h4 class="mb-3">Back-End</h4>
+                  <div class="skills-grid">
+                    <div class="skill-card"><span class="icon"><i class="devicon-nodejs-plain colored"></i></span>Node Js</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-express-original"></i></span>Express Js</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-nextjs-plain"></i></span>Next Js</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-csharp-plain colored"></i></span>C#</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-dotnetcore-plain colored"></i></span>ML.NET</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-dotnetcore-plain colored"></i></span>ASP .NET Core</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-mysql-plain-wordmark colored"></i></span>MySQL</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-mongodb-plain colored"></i></span>MongoDB</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Cloud -->
+              <div class="col-md-6 col-lg-6 mb-4">
+                <div class="p-4 border rounded-3 shadow-sm">
+                  <h4 class="mb-3">Cloud</h4>
+                  <div class="skills-grid">
+                    <div class="skill-card"><span class="icon"><i class="devicon-amazonwebservices-plain-wordmark colored"></i></span>AWS</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-googlecloud-plain colored"></i></span>Google Cloud</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-azure-plain colored"></i></span>Azure</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Others -->
+              <div class="col-md-6 col-lg-6 mb-4">
+                <div class="p-4 border rounded-3 shadow-sm">
+                  <h4 class="mb-3">Others</h4>
+                  <div class="skills-grid">
+                    <div class="skill-card"><span class="icon"><i class="devicon-git-plain colored"></i></span>Git</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-github-original"></i></span>GitHub</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-docker-plain colored"></i></span>Docker</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-vscode-plain colored"></i></span>VS Code</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-visualstudio-plain colored"></i></span>Visual Studio</div>
+                    <div class="skill-card"><span class="icon"><i class="devicon-postman-plain colored"></i></span>Postman</div>
+                    <div class="skill-card"><span class="icon">J</span>Juniper</div>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- end row -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FEATURES -->
+    <section class="experience py-5 d-lg-flex justify-content-center align-items-center" id="experience">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Experience</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2025</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Software Developer</span><small>Jung Talents</small></h3>
+                                  <p>Designed enterprise system architecture, implemented .NET microservices/APIs, and developed scalable frameworks through research and analysis.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2024</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Cyber Range Infrastructure Project</span><small>Gelos</small></h3>
+                                <p>Cyber range infrastructure, secure network design, IDS/IPS and SIEM system integration.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2023</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Cybersecurity Compliance & IP</span><small>Red Opal</small></h3>
+                                <p>Cybersecurity legal compliance, intellectual property protection, and IAM processes.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2024</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Digital Forensic Consultant</span><small>Red Opal</small></h3>
+                                <p>Digital forensic analysis, policy creation and report dissemination.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Education</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2024</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Independent Research Report - Analysis of The A51 Cipher</span></h3>
+                                  
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2024</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Advanced Diploma of Cybersecurity</span></h3>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2023</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Network+</span></h3>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row g-4">
+
+          <!-- Contact info -->
+          <div class="col-lg-6 col-12">
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+              <div class="contact-info-item">
+                <h3 class="mb-3 text-white">Contact Info</h3>
+                <p class="footer-text mb-0"><a href="tel:+61411753673">+61 411 753 673</a></p>
+                <p><a href="mailto:willg2070@gmail.com">willg2070@gmail.com</a></p>
+              </div>
+              <ul class="social-links list-unstyled mb-0">
+                <li>
+                  <a href="https://github.com/WG37"
+                    class="uil uil-github"
+                    aria-label="GitHub"
+                    data-bs-toggle="tooltip" data-bs-placement="left" title="GitHub" rel="noopener"></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/will-glass-715090382/"
+                    class="uil uil-linkedin"
+                    aria-label="LinkedIn"
+                    data-bs-toggle="tooltip" data-bs-placement="left" 
+                    title="LinkedIn" 
+                    rel="noopener"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Any questions? Feel free to contact</h2>
+
+              <form id="contactForm" action="https://formspree.io/f/mqadnzqa" method="POST">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                  </div>
+                  <div class="col-12">
+                    <textarea name="message" rows="6" class="form-control" placeholder="Message" required></textarea>
+                  </div>
+
+                  <!-- Honeypot -->
+                  <input type="text" name="website" autocomplete="off" tabindex="-1" aria-hidden="true"
+                        style="position:absolute;left:-5000px;opacity:0;height:0;width:0;">
+
+                  <div class="ms-lg-auto col-lg-5 col-12">
+                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">Copyright &copy; 2025 William Glass . All rights reserved</p>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>

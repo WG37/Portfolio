@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic LFSR Simulation</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; padding: 20px; }
+        input, button { margin: 10px; padding: 10px; font-size: 16px; }
+        #output { font-size: 20px; margin-top: 20px; }
+        .bit-container { display: flex; justify-content: center; font-size: 24px; margin-top: 10px; }
+        .bit { width: 30px; height: 30px; line-height: 30px; text-align: center; border: 1px solid black; margin: 2px; }
+    </style>
+</head>
+<body>
+
+    <h1>8-bit Linear Feedback Shift Register</h1>
+    <p>Very basic LFSR that generates pseudo-random sequences.</p>
+
+    <label for="seed">Enter a Hexidecimal seed:</label>
+    <input type="text" id="seed" value="C9">
+    <button onclick="startLFSR()">Start</button>
+    <button onclick="stepLFSR()">Step</button>
+
+    <p id="output">State: </p>
+    <div class="bit-container" id="bitDisplay"></div>
+
+    <script src="js/lfsr.js"></script>
+</body>
+</html>
